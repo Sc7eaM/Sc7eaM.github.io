@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
 
 body{
     margin: 0;
-
+    font-family:
 }
 
 nav{
@@ -66,3 +67,66 @@ nav{
     transform: translate(-50%, -50%);
     z-index: 1;
 }
+
+.transition-stark{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.transition-stark h1{
+    margin: 0;
+}
+
+#Trilogie{
+    display: flex;
+    justify-content: space-between;
+ }
+
+.Film1{
+    border: 3px solid #bf1212;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    color: #b79e2c;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.card-avis{
+
+}
+
+.card-container{
+
+}
+
+.pseudo{
+
+}
+
+.stars{
+
+}
+
+.avis{
+
+} 
+
+.button{
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: all .3s ease-in-out;
+ }
+ 
+ .button.primary{
+    background: rgb(11, 49, 154);
+    color: #ffffff;
+    border: 2px solid #000000;
+ }
+
+ .button.primary:hover{
+    background: rgb(40, 93, 241);
+    color: white;
+ }
